@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DigitalBrainJS/axios.git"
+    "url": "https://github.com/DigitalBrainJS/axios-lab.git"
   },
   "keywords": [
     "xhr",
@@ -28,7 +28,7 @@
   "author": "Matt Zabriskie",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DigitalBrainJS/issues"
+    "url": "https://github.com/DigitalBrainJS/axios-lab/issues"
   },
   "homepage": "https://axios-http.com",
   "devDependencies": {

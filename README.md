@@ -2,14 +2,14 @@
 
 [![npm version](https://img.shields.io/npm/v/axios-lab.svg?style=flat-square)](https://www.npmjs.org/package/axios-lab)
 [![CDNJS](https://img.shields.io/cdnjs/v/axios-lab.svg?style=flat-square)](https://cdnjs.com/libraries/axios-lab)
-[![build status](https://img.shields.io/travis/DigitalBrainJS/axios/master.svg?style=flat-square)](https://travis-ci.org/DigitalBrain/axios) 
+[![build status](https://img.shields.io/travis/DigitalBrainJS/axios-lab/master.svg?style=flat-square)](https://travis-ci.org/DigitalBrain/axios-lab) 
 [![code coverage](https://img.shields.io/coveralls/mzabriskie/axios-lab.svg?style=flat-square)](https://coveralls.io/r/mzabriskie/axios-lab)
 [![install size](https://packagephobia.now.sh/badge?p=axios-lab)](https://packagephobia.now.sh/result?p=axios-lab)
 [![npm downloads](https://img.shields.io/npm/dm/axios-lab.svg?style=flat-square)](http://npm-stat.com/charts.html?package=axios-lab)
 
 This is a fork of [Axios](https://www.npmjs.com/package/axios) package to test experimental features. 
 
-⚠️`Use at own risk` ⚠️.
+⚠️`Use at own risk` ⚠️
 
 # Fork differences
 - Reworked `cancelToken` to fix memory leakage in case of using a persistent token for several requests. This can happen because requests cannot unsubscribe from the token after it completed since cancelToken doesn't provide any methods to do this.
